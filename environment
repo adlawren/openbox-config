@@ -1,0 +1,2 @@
+# Add path to scripts
+export PATH="$HOME/.config/openbox/command_scripts:$PATH"

@@ -1,0 +1,9 @@
+# Taskbar
+tint2 &
+
+# Desktop backgroud
+feh --bg-scale ~/Pictures/milky-way-and-starry-night-sky.jpg
+
+xscreensaver -no-splash &
+
+ulauncher &
