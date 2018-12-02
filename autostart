@@ -1,9 +1,12 @@
-# Taskbar
-tint2 &
-
-# Desktop backgroud
-feh --bg-scale ~/Pictures/milky-way-and-starry-night-sky.jpg
-
 xscreensaver -no-splash &
 
-ulauncher &
+setxkbmap us colemak
+xmodmap -e "keycode 66 = BackSpace BackSpace BackSpace BackSpace" # Fix issue where holding down Caps Lock doesn't continuously delete characters
+
+xrdb ~/.Xresources
+
+feh --bg-scale ~/Wallpapers/Bioshock2.jpg
+
+workrave & # TODO: don't start if already running?
+
+polybar main &
